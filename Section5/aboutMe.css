@@ -1,0 +1,55 @@
+h4 {
+    /* Color can be represented by hexadecimal or rgba(r,g,b,a) */
+    color: blue;
+    border-color: aqua;
+    border-width: 5px;
+    border-style: double;
+
+    /* border: 5px solid, aqua; */
+}
+
+body {
+    background: #124512;
+    /* set an image as background
+    background: url(...);
+    Prevents background from repeating:
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+}
+
+/* id selector */
+#special {
+    color: yellow;
+}
+
+/* class selector */
+.highlight {
+    color: pink;
+}
+
+/* star selector  */
+* {
+    /* applies to every single element */
+}
+
+/* descendant selector
+tag1 tag2 {
+    /* select all of something that comes in a pair. ex: all anchor tags inside of li */
+} */
+
+/* adjacent selector  */
+/* tag1 + tag2 {
+    tag2 comes after tag1
+} */
+
+
+/* attribute selector */
+/* tag[attribute=""]{
+    selects based off of an attribute
+} */
+
+/* nth type */
+/* tag:nth-of-type(#){
+    applies to every nth type of tag
+} */
