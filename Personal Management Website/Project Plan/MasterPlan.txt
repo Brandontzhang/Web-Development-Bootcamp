@@ -1,0 +1,12 @@
+Current Project Plan
+Web development
+
+Front End:
+-html, css, and javascript
+-css use bootstrap
+-javascript for dynamic things?
+
+Back End:
+-javascript and mongodb for database
+-not sure if this counts as part of the web development but apache or mamp for server?
+    probably Apache since that seems to be most popular

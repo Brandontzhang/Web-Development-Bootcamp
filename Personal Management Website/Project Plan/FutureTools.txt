@@ -1,0 +1,6 @@
+Goals for Future
+=Implement mongodb to be able to take in and store/display information
+    -Everything can take and displayed new edits
+-Timer has pomodoro function
+-Timer can work on specific tasks of the schedule, deletes them when the timer for the specific
+    task is completed

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+
+        <!-- action: where the form sends data to -->
+        <!-- method: what HTTP method (get/post) -->
+<!--
+        <form action="index.html" method="post">
+            <!-- a few basic types... -->
+
+            <!-- <input type="text" name="" value="">
+            <input type="date" name="" value="">
+            <input type="color" name="" value="">
+            <input type="file" name="" value="">
+            <input type="checkbox" name="" value=""> -->
+
+        <!-- </form> -->
+
+        <form action="Tables.html">
+            <!-- whatever is written into the form is sent to the action address in the address as a query -->
+            <label>
+                Email:
+                <input type="email" name="email" placeholder="email" required>
+            </label>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="password" required>
+            <input type="submit">
+
+            <!-- doesn't work -->
+            <button type="button">Login</button>
+        </form>
+    </body>
+</html>
