@@ -1,0 +1,26 @@
+<!-- font weight  -->
+tag {
+    font-weight: 100 - 800 (by hundreds);
+    bold or normal...
+}
+
+/* line height just line spacing */
+tag {
+    line-height: #;
+}
+
+/* text-align left justified or right justified */
+tag {
+    text-align: center;
+}
+
+/* text-decoration special effects for lines */
+tag{
+    text-decoration: overline;
+}
+
+/* using custom fonts from google
+-take link from google and put it in html file */
+tag{
+    font-family: familyName;
+}
